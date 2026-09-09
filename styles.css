@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: red !important;
+}
+
 /* Fondo con un degradado */
 body, html { 
     margin: 0; 
