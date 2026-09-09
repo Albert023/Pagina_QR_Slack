@@ -37,10 +37,10 @@ body, html {
 }
 
 h1 {
-    font-size: 32px; /* Un poco más grande */
-    color: #1a2b3c;  /* Un azul súper oscuro, casi negro */
+    font-size: 48px; /* Un poco más grande */
+    color: #005aff;  /* Un azul súper oscuro, casi negro */
     margin-bottom: 30px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: -0.5px; /* Junta un poquito las letras para que se vea más moderno */
     padding: 0 15px;
 }
@@ -92,7 +92,6 @@ h1 {
     /* AQUÍ ESTÁN LOS CAMBIOS DEL BORDE Y LA SOMBRA */
     border-radius: 24px; /* Un poco más redondo */
     border: 16px solid #FF8A65; /* El bordecito azul que combina con tus botones */
-    box-shadow: 0 5px 20px rgb(255,165,0); /* Una sombra azulada y suave */
 }
 
 /* Botón de volver al inicio */
