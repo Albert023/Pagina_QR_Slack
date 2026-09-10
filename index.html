@@ -22,14 +22,18 @@
 
     <!-- Pantalla 2: Visualizacion del QR -->
     <div id="qr-screen" class="container qr-view">
-        <h1 id="qr-title">Grado</h1>
+        <div class="header-text">COLEGIO NAZARETH</div>
+        <div class="title">Canal de Slack</div>
+        <h1 id="qr-title" class="grade">Grado</h1>
+        <div class="helper-text">Abre la camara de tu celurar y escanea el codigo para unirte</div>
+        
         <img id="qr-img" class="qr-image" src="" alt="Codigo QR">
+        <tittle>Canal Slack</tittle>
+        <h1></h1>
         <button class="btn btn-back" onclick="showMenu()">Volver al Inicio</button>
     </div>
-
+    
     <script>
-        // Array de datos. Aqui puedes agregar todos los canales y las rutas a tus imagenes QR.
-        // Si mas adelante quieres escalar esto, podrias hacer un fetch() a una API REST o un archivo JSON.
         const gradosData = [
             { label: 'Parvularia 4', qrUrl: 'Imagenes/QR Slack Parvularia 4.png' },
             { label: 'Parvularia 5', qrUrl: 'Imagenes/QR Slack Parvularia 5.png' },
