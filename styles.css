@@ -35,7 +35,7 @@ body, html {
 }
 
 h1 {
-    font-size: 48px; /* Un poco más grande */
+    font-size: 48px; /* Un poco mas grande */
     color: #005aff;  
     margin-bottom: 30px;
     font-weight: bold;
@@ -53,7 +53,7 @@ h1 {
     max-width: 900px;
 }
 
-/* Botones táctiles */
+/* Botones tactiles */
 .btn { 
     padding: 25px 45px; 
     font-size: 22px; 
@@ -79,7 +79,7 @@ h1 {
     width: 80vw; 
     max-width: 350px;
     /* Comando para hacer que sea cuadrado el qr*/
-    aspec-ratio: 1/1;
+    aspect-ratio: 1/1;
     object-fit: contain;
     margin: 20px 0; 
     background: white;
@@ -87,19 +87,19 @@ h1 {
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 
-    /* AQUÍ ESTÁN LOS CAMBIOS DEL BORDE Y LA SOMBRA */
-    border-radius: 24px; /* Un poco más redondo */
+    /* AQUi ESTaN LOS CAMBIOS DEL BORDE Y LA SOMBRA */
+    border-radius: 24px; /* Un poco mas redondo */
     border: 16px solid #FF8A65; /* El bordecito azul que combina con tus botones */
 }
 
-/* Botón de volver al inicio */
+/* Boton de volver al inicio */
 .btn-back {
-    background: #e3342f; /* Un rojo más moderno */
+    background: #e3342f; /* Un rojo mas moderno */
     color: white;
     font-size: 20px;
     font-weight: bold;
     padding: 20px 60px;
-    border-radius: 50px; /* Borde tipo píldora */
+    border-radius: 50px; /* Borde tipo pildora */
     border: none;
     cursor: pointer;
     box-shadow: 0 10px 15px -3px rgba(227, 52, 47, 0.3);
@@ -114,7 +114,7 @@ h1 {
 
 /* Estilos para los textos de la cabecera */
 .header-text {
-    font-size: 14px;
+    font-size: 36px;
     font-weight: bold;
     color: #005A9C; /* Azul institucional */
     letter-spacing: 3px;
@@ -140,7 +140,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-/* El nuevo diseño del cuadro del QR */
+/* El nuevo disenio del cuadro del QR */
 .qr-card {
     background-color: #ffffff;
     border-radius: 36px; /* Bordes muy redondeados */
@@ -163,20 +163,20 @@ h1 {
 
 
 
-/* RESPONSIVE DESIGN: Ajustes automáticos para pantallas pequeñas (iPads y telefonos) */
+/* RESPONSIVE DESIGN: Ajustes automaticos para pantallas pequenias (iPads y telefonos) */
 @media (max-width: 600px) {
     .school-logo {
-        width: 140px; /* Logo más pequeño en teléfonos */
+        width: 140px; /* Logo mas pequenio en telefonos */
     }
     
     h1 {
-        font-size: 22px; /* Letra más pequeña */
+        font-size: 22px; /* Letra mas pequenia */
     }
 
     .btn {
-        padding: 15px 25px; /* Botones más compactos */
+        padding: 15px 25px; /* Botones mas compactos */
         font-size: 18px;
-        width: 100%; /* En teléfonos, cada botón ocupará todo el ancho para que sea fácil de tocar */
+        width: 100%; /* En telefonos, cada boton ocupara todo el ancho para que sea facil de tocar */
     }
 
     .menu {
