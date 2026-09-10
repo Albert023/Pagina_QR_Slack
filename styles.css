@@ -3,7 +3,7 @@
 }
 
 
-/* Fondo con un degradado */
+/* Fondo con un estilo de puntos */
 body, html { 
     margin: 0; 
     padding: 0; 
@@ -12,8 +12,6 @@ body, html {
     background-color: #f4f6f9;
     background-image: radial-gradient(#cbd5e1 2px, transparent 2px);
     background-size: 30px 30px;
-    /*background-attachment: fixed;
-    /*background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);*/
     touch-action: manipulation; 
     color: #333;
 }
@@ -38,10 +36,10 @@ body, html {
 
 h1 {
     font-size: 48px; /* Un poco más grande */
-    color: #005aff;  /* Un azul súper oscuro, casi negro */
+    color: #005aff;  
     margin-bottom: 30px;
     font-weight: bold;
-    letter-spacing: -0.5px; /* Junta un poquito las letras para que se vea más moderno */
+    letter-spacing: -0.5px; 
     padding: 0 15px;
 }
 
@@ -95,16 +93,75 @@ h1 {
 }
 
 /* Botón de volver al inicio */
-.btn-back { 
-    background: linear-gradient(to bottom, #e74c3c, #c0392b);
-    box-shadow: 0 6px 12px rgba(231, 76, 60, 0.3);
-    margin-top: 20px;
-    font-size: 18px;
-    padding: 15px 35px;
+.btn-back {
+    background: #e3342f; /* Un rojo más moderno */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 60px;
+    border-radius: 50px; /* Borde tipo píldora */
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(227, 52, 47, 0.3);
+    transition: transform 0.1s;
 }
 .btn-back:active {
-    box-shadow: 0 2px 6px rgba(231, 76, 60, 0.4);
+    transform: scale(0.95);
 }
+
+
+
+
+/* Estilos para los textos de la cabecera */
+.header-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #005A9C; /* Azul institucional */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 28px;
+    color: #64748b; /* Gris azulado sutil */
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.grade {
+    font-size: 54px;
+    color: #0f172a; /* Azul casi negro, muy elegante */
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.helper-text {
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 40px;
+}
+
+/* El nuevo diseño del cuadro del QR */
+.qr-card {
+    background-color: #ffffff;
+    border-radius: 36px; /* Bordes muy redondeados */
+    padding: 30px;
+    margin: 0 auto 50px auto;
+    width: 320px;
+    /* Sombra difuminada para el efecto flotante */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15); 
+    border: 1px solid #e2e8f0;
+}
+.qr-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+
+
+
+
 
 /* RESPONSIVE DESIGN: Ajustes automáticos para pantallas pequeñas (iPads y telefonos) */
 @media (max-width: 600px) {
